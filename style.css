@@ -11,7 +11,7 @@ a {
     text-decoration:none;
 }
 
-.footer {
+.header {
     background-color: #1F2937;
     display: flex;
     justify-content: space-between;
@@ -25,6 +25,7 @@ a {
 }
 .right-side {
     color: #e5e7eb;
+    font-size: 18px;
 }
 
 .right-side-list {
