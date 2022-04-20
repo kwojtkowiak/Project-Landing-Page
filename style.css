@@ -9,10 +9,10 @@ body {
 }
 
 .header {
-    ;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 8px 16px;
 }
 
 .left-side a {
@@ -26,12 +26,13 @@ body {
 .right-side a {
     color: #e5e7eb;
     font-size: 18px;
-    text-decoration: none
+    text-decoration: none;
 }
 
 .right-side-list {
     display: flex;
     list-style-type: none;
+    gap: 20px;
 }
 
 .top {
@@ -39,6 +40,7 @@ body {
     flex-direction: column;
     background-color: #1F2937
 }
+
 
 
 
