@@ -69,3 +69,7 @@ button {
     display: flex;
     flex-direction: column;
 }
+
+.hero_img {
+    color:white;
+}
