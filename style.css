@@ -38,10 +38,34 @@ body {
 .top {
     display:flex;
     flex-direction: column;
-    background-color: #1F2937
+    justify-content: center;
+    background-color: #1F2937;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero_text_header {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bolder
+}
+
+.hero_text {
+    color: #e5e7eb;
+    font-size: 18px;
 }
 
 
+button {
+    background-color: #3882F6
 
+}
 
-
+.text_1 {
+    display: flex;
+    flex-direction: column;
+}
