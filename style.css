@@ -12,7 +12,8 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 8px 16px;
+    padding: 8px 20px;
+
 }
 
 .left-side a {
@@ -36,9 +37,8 @@ body {
 }
 
 .top {
-    display:flex;
+    display: flex;
     flex-direction: column;
-    justify-content: center;
     background-color: #1F2937;
 }
 
@@ -74,4 +74,11 @@ button {
 .hero .hero_img {
     color:white;
     background-color: grey;
+    text-align: center;
+    align-items: center;
+}
+
+.text_1 {
+    display: block;
+    width: 60%;
 }
