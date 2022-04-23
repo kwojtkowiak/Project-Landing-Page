@@ -111,7 +111,7 @@ button {
     background-color: white;
     display: flex;
     flex-direction: column;
-    gap: 7rem;
+    gap: 4rem;
     padding: 1rem 14rem 7rem;
 }
 
@@ -126,8 +126,13 @@ h2 {
     display: flex;
     justify-content: center;
     text-align: center;
+    gap: 20px;
 }
 
 .info {
     max-width: 250px;
+}
+
+.icon {
+    border: 5px solid #F7882F;
 }
