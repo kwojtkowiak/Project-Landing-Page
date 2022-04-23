@@ -22,7 +22,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 7rem;
-    padding: 1rem 11rem 7rem;
+    padding: 1rem 9rem 7rem;
 }
 
 /* Navbar */
@@ -117,7 +117,7 @@ button {
     display: flex;
     flex-direction: column;
     gap: 4rem;
-    padding: 1rem 11rem 7rem;
+    padding: 1rem 9rem 7rem;
 }
 
 h2 {
@@ -149,7 +149,7 @@ h2 {
     background-color: #dcc7aa;
     display: flex;
     flex-direction: column;
-    padding: 7rem 11rem 7rem;
+    padding: 7rem 9rem 7rem;
 }
 
 h3 {
@@ -173,7 +173,7 @@ h3 {
     background-color: white;
     display: flex;
     flex-direction: column;
-    padding: 7rem 10rem 7rem;
+    padding: 7rem 9rem 7rem;
 }
 
 #box {
