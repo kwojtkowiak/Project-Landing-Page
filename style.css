@@ -16,14 +16,23 @@ body {
     font-family: Roboto, sans-serif;
 }
 
+/* First part of the website */
 .wrapper_first {
     background-color: #6B7A8F;
+    display: flex;
+    flex-direction: column;
+    gap: 7rem;
+    padding: 1rem 14rem 7rem;
 }
+
+/* Navbar */
 
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 1rem;
+    margin-bottom: 90px;
 }
 
 #navlogo {
@@ -35,46 +44,80 @@ nav {
 ul {
     list-style: none;
     display: flex;
+    margin: 0px;
+    padding: 0px;
     gap: 20px;
 }
 
-.hero {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
+a {
+    text-decoration: none;
 }
 
-h1 {
-    margin-bottom: 0;
-}
-
-.hero_text_header {
-    color: #F9FAF8;
-    font-size: 48px;
-    font-weight: bolder;
-}
-
-.hero_text {
-    color: #e5e7eb;
+nav ul {
+    color: white;
     font-size: 18px;
 }
+/* Box in the first part */
+#hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+
+#hero-left h1 {
+    margin: 0;
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+#hero-left p {
+    color: white;
+    font-size: 18px;
+    margin-top: 2px;
+}
+
+#hero-right {
+    display: flex;
+}
+
+#hero-right img {
+    flex: 1;
+    object-fit: cover;
+    max-height: calc(1rem+200px);
+    border-radius: 7px;
+  }
 
 button {
-    background-color: #3882F6;
+    background-color: #F7882F;
     color: white;
-    border-radius: 5px;
+    border-radius: 7px;
+    border-color: #F7882F;
+    font-size: 18px;
+    font-weight: 500;
+    padding-inline: 2rem;
+    padding-block: 7px;
+    outline: none;
 }
 
-.hero {
-    color:white;
-    background-color: grey;
-    justify-content: center;
-    flex: 1;
+#hero-left,
+#hero-right {
+    flex: 1 1 0;
+}
+
+/* Second part */
+.wrapper_second {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 7rem;
+    padding: 1rem 14rem 7rem;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
     text-align: center;
-}
-
-.text_1 {
-    display: block;
-    width: 60%;
 }
