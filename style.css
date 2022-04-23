@@ -53,6 +53,11 @@ a {
     text-decoration: none;
 }
 
+a:visited {
+    text-decoration: none;
+    color: #F9FAF8;
+}
+
 nav ul {
     color: white;
     font-size: 18px;
@@ -135,4 +140,80 @@ h2 {
 
 .icon {
     border: 5px solid #F7882F;
+    border-radius: 15px;
+}
+
+/* Third part */
+
+.wrapper_third {
+    background-color: #dcc7aa;
+    display: flex;
+    flex-direction: column;
+    padding: 7rem 14rem 7rem;
+}
+
+h3 {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    text-align: left;
+    color: #1F2937
+}
+
+.wrapper_third p {
+    text-align: right;
+    font-size: 20px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+/*Fourth part*/
+
+.wrapper_fourth {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 7rem 10rem 7rem;
+}
+
+#box {
+    background-color: #F7882F;
+    border-radius: 10px;
+    padding: 2rem 3rem 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    flex: 1;
+}
+
+h4 {
+    font-size: 20px;
+    margin: 0;
+    font-weight: bold;
+}
+
+#box p {
+    font-size: 16px;
+    margin-top: 3px;
+}
+
+#signup2 {
+    border-color: white;
+    border: solid;
+    outline: none;
+}
+
+/*Footer*/
+footer {
+    background-color: #6B7A8F;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+h5 {
+    font-size: 14px;
+    color: #F9FAF8;
 }
